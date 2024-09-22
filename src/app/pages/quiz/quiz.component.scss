@@ -1,0 +1,101 @@
+.container {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: #8c67f0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    label {
+      width: 100%;
+      background-color: #ff783f;
+      padding: 1.5rem 0;
+      font-size: 3rem;
+      margin: 0 auto;
+      text-align: center;
+      font-family: "Lobster", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    svg {
+      margin-top: -1.3rem;
+      z-index: 1;
+    }
+  }
+
+  .content {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+      font-size: 4rem;
+      margin: 0;
+      font-family: "Lobster", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .sub-title {
+      font-size: 3rem;
+      margin: 0;
+      font-family: "Lobster", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .image {
+      width: 25rem;
+      height: 25rem;
+      border-radius: 100%;
+      margin: 5rem auto;
+      border: 0.5rem solid white;
+      background-image: url("https://www.correiodopovo.com.br/image/contentid/policy:1.996286:1679274152/Billie%20Eilish.jpeg?a=3%3A2&$p$a=b0defa9");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .content-buttons {
+      width: 100%;
+      flex-direction: column;
+      gap: 1rem;
+      display: flex;
+
+      .btn-primary {
+        width: 100%;
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        border-radius: 12px;
+        cursor: pointer;
+      }
+
+    }
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+    display: flex;
+  }
+}
+

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Qual é o nome dessa cantora?",
+    "image": "https://www.correiodopovo.com.br/image/contentid/policy:1.996286:1679274152/Billie%20Eilish.jpeg?a=3%3A2&$p$a=b0defa9",
+    "answers": [
+          {
+            "text": "Lady Gaga",
+            "correct": false
+          },
+          {
+            "text": "Lana Del Ray",
+            "correct": false
+          },
+          {
+            "text": "Doja Cat",
+            "correct": false
+          },
+          {
+            "text": "Billie Eilish",
+            "correct": true
+          }
+    ]
+  },
+  {
+    "title": "Qual é o nome dessa cantora?",
+    "image": "https://www.correiodopovo.com.br/image/contentid/policy:1.996286:1679274152/Billie%20Eilish.jpeg?a=3%3A2&$p$a=b0defa9",
+    "answers": [
+          {
+            "text": "Lady Gaga",
+            "correct": false
+          },
+          {
+            "text": "Lana Del Ray",
+            "correct": false
+          },
+          {
+            "text": "Doja Cat",
+            "correct": false
+          },
+          {
+            "text": "Billie Eilish",
+            "correct": true
+          }
+    ]
+  }
+]
